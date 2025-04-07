@@ -1,0 +1,15 @@
+emotions:
+
+first entry it completely focuses on the anxiety which is essentially fear, but forgets about the happy part of it. The nlp needs to section the entry because time is apart of understanding the emotions
+second: I feel like it should be more neutral
+fifth: wrong, should be mostly happy
+eleventh: wrong, should be joy
+
+for the majority of these things, it appears to be working on buzz words rather than actaul emotions conveyed through tone, needs refinement.
+
+
+
+summary:
+
+absolutely sucks
+it basically just copies the text given. I defineatly would need to finetune it so that it understands what we are looking for. It probably wouldnt be difficult to do since I could easily just use 4o with a query that would work perfectly. Need some query instructions or fine tuning.

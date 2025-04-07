@@ -11,3 +11,13 @@ its trained on 6 distinguished datasets that include sources for all emotions re
 
 One thing that would be good to add would be the emotions of "stress", "anxiety" and other common ones that would be found in journal entries.
 
+
+
+
+
+
+summary trask 2:
+
+using bart large cnn, appears to be very well recognized.
+finetuned and trained on cnn data, and has been shown to work well for comprehension tasks
+its also very well liked and has commuity supprot, so one can probably find more on finetuning for emotional contexts
