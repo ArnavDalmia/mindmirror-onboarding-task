@@ -1,14 +1,15 @@
 """
-STUDENT NAME:
-STUDENT ID:
+STUDENT NAME: Arnav Dalmia
+STUDENT ID: 21077582
 """
 
 from transformers import pipeline
+import csv
 
 # Load your chosen models here
 def load_emotion_model():
-    # Research and return a pre-trained emotion detection pipeline
-    pass
+    classifier = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-base", top_k=None)
+    return classifier
 
 def load_summarization_model():
     # Research and return a pre-trained summarization pipeline
@@ -16,8 +17,21 @@ def load_summarization_model():
 
 # Process journal entries and return emotion predictions
 def detect_emotions(text_entries, emotion_model):
-    # Implement logic to process entries and extract emotions
-    pass
+    final = []
+    for i in text_entries:
+        analysis =  {}
+        results = emotion_model(i)
+        for i in results[0]:
+            analysis[i["label"]] = i["score"]
+        with open('emotion.csv', 'a', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow("Journal Entry", i)
+            for key, value in analysis.items():
+                writer.writerow([key, value])
+            print(f"Results saved")
+        final.append(analysis)
+    return final
+    
 
 # Generate summaries for journal entries
 def summarize_entries(entries, summarizer):
@@ -41,13 +55,18 @@ if __name__ == '__main__':
         "The sale section of holister ran out of my size, felt annoyed as I was looking forward to some nice finds.",
         "Finally picked up a lego set I've been wanting for so long, can't wait to open it up and put it together.",
         "Someone stole my laptop, I'm so angry! I have to spend money, I've lost valuable information, nothing good has come of this.",
-        "I finally worked up the confidence to ask my crush out for a date, and she said yes. Weeks of mental torment has all been worth it."
-    ]
+        "I finally worked up the confidence to ask my crush out for a date, and she said yes. Weeks of mental torment has all been worth it."]
+    
+    # I made sure that the entries are quite simple, should pass all pre processing concerns, but now adding lower casing underneath for any potential problems in the models usage.
+    for i in journal_entries:
+        temp = i
+        temp.lower()
+        i = temp
 
     # Apply pipelines
     emotions = detect_emotions(journal_entries, emotion_model)
-    summaries = summarize_entries(journal_entries, summarizer)
+    #summaries = summarize_entries(journal_entries, summarizer)
 
     # Output results
     print("Emotion Predictions:", emotions)
-    print("Summaries:", summaries)
+    #print("Summaries:", summaries)
