@@ -21,17 +21,19 @@ def detect_emotions(text_entries, emotion_model):
     for i in text_entries:
         analysis =  {}
         results = emotion_model(i)
-        for i in results[0]:
-            analysis[i["label"]] = i["score"]
+        for j in results[0]:
+            analysis[j["label"]] = j["score"]
+
+
         with open('emotion.csv', 'a', newline='') as file:
             writer = csv.writer(file)
-            writer.writerow("Journal Entry", i)
+            writer.writerow(["Journal Entry: " + i])
+            writer.writerow(['Emotion', 'Score'])
             for key, value in analysis.items():
                 writer.writerow([key, value])
             print(f"Results saved")
         final.append(analysis)
     return final
-    
 
 # Generate summaries for journal entries
 def summarize_entries(entries, summarizer):

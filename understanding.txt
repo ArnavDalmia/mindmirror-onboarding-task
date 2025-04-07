@@ -1,0 +1,13 @@
+Emotion, task 1:
+
+selected the most popular emotional classification model on the hugging face hub
+
+The model is a fine-tuned checkpoint of DistilRoBERTa-base, a lightweight nlp
+
+we get the 6 basic emotions: (anger, disgust, fear, joy, sadness and surprise)
+and in addition we also get the neutral emotion for ambiguous comments
+
+its trained on 6 distinguished datasets that include sources for all emotions recognized.
+
+One thing that would be good to add would be the emotions of "stress", "anxiety" and other common ones that would be found in journal entries.
+

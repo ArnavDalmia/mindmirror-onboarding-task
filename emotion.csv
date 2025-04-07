@@ -1,0 +1,99 @@
+"Journal Entry: Felt anxious about my exam, but happy after completing it."
+Emotion,Score
+fear,0.8145555257797241
+joy,0.16736306250095367
+sadness,0.00752250524237752
+neutral,0.004585120361298323
+anger,0.003456198377534747
+surprise,0.0013384377816691995
+disgust,0.0011790851131081581
+Journal Entry: It rained all day and I stayed inside feeling calm.
+Emotion,Score
+joy,0.9576999545097351
+neutral,0.02053081803023815
+sadness,0.011304368264973164
+disgust,0.004171893931925297
+anger,0.004171402659267187
+fear,0.0012326763244345784
+surprise,0.0008888987940736115
+"Journal Entry: Went out with some old friends, it was nostalgic and I want to do it more often."
+Emotion,Score
+neutral,0.44344770908355713
+joy,0.4107408821582794
+sadness,0.07354895025491714
+surprise,0.05609041079878807
+disgust,0.008769323118031025
+anger,0.0048140836879611015
+fear,0.0025886381044983864
+"Journal Entry: Had a fight with my partner, and I don't know how to approach them to make up."
+Emotion,Score
+sadness,0.3034410774707794
+neutral,0.27454572916030884
+disgust,0.23563559353351593
+anger,0.10271965712308884
+fear,0.041209034621715546
+surprise,0.04003555327653885
+joy,0.002413371577858925
+"Journal Entry: I wen't for a run after a long time, feeling tired but excited for tomorrow again."
+Emotion,Score
+sadness,0.7471227049827576
+joy,0.20501448214054108
+neutral,0.03152229264378548
+surprise,0.00886236410588026
+anger,0.0037226045969873667
+disgust,0.0025956807658076286
+fear,0.0011598099954426289
+"Journal Entry: Bought some new clothes today, but they got ruined by some bird poop, felt stressed and angry with everything. Really ruined my mood for the entire day."
+Emotion,Score
+anger,0.9467986822128296
+sadness,0.0357634536921978
+neutral,0.0060095093213021755
+disgust,0.0046333931386470795
+fear,0.0031601411756128073
+surprise,0.002654377371072769
+joy,0.00098035903647542
+"Journal Entry: Went to my local cafe for my daily coffee, and it was by far the best coffee I've had so far. Made me feel happy and ready for the day."
+Emotion,Score
+joy,0.9895752668380737
+surprise,0.003753319848328829
+sadness,0.0029771756380796432
+neutral,0.002215414773672819
+anger,0.0006884562317281961
+disgust,0.0005870183813385665
+fear,0.0002033005002886057
+"Journal Entry: The sale section of holister ran out of my size, felt annoyed as I was looking forward to some nice finds."
+Emotion,Score
+anger,0.9553782343864441
+disgust,0.019016873091459274
+neutral,0.011529040522873402
+sadness,0.007652098312973976
+surprise,0.00368052301928401
+fear,0.0014907198492437601
+joy,0.001252424786798656
+"Journal Entry: Finally picked up a lego set I've been wanting for so long, can't wait to open it up and put it together."
+Emotion,Score
+joy,0.7148404717445374
+neutral,0.1967184841632843
+surprise,0.07141468673944473
+sadness,0.007932587526738644
+anger,0.005705127026885748
+fear,0.0020053901243954897
+disgust,0.0013832977274432778
+"Journal Entry: Someone stole my laptop, I'm so angry! I have to spend money, I've lost valuable information, nothing good has come of this."
+Emotion,Score
+anger,0.9786897301673889
+neutral,0.005108881276100874
+fear,0.004203639458864927
+disgust,0.004116025287657976
+sadness,0.003732376266270876
+surprise,0.0033096852712333202
+joy,0.000839601329062134
+"Journal Entry: I finally worked up the confidence to ask my crush out for a date, and she said yes. Weeks of mental torment has all been worth it."
+Emotion,Score
+sadness,0.7349082231521606
+fear,0.09110239148139954
+neutral,0.057323191314935684
+anger,0.052877429872751236
+disgust,0.04207518696784973
+joy,0.017129750922322273
+surprise,0.004583807196468115
